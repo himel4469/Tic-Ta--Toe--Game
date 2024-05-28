@@ -13,11 +13,18 @@ body {
   justify-content: center;
   height: 100vh;
 }
-.msg_container p {
-  font-size: 1.5rem;
-  text-align: center;
+
+.msg_container {
+  height: 500vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+#msg {
   color: white;
-  font-weight: bolder;
+  font-size: 5vmin;
 }
 .hide {
   display: none;
@@ -48,7 +55,7 @@ h1 {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   font-size: 8vmin;
   font-weight: bold;
-  color: black;
+  color:black;
   background-color: #ffffc7;
   cursor: pointer;
 }
@@ -76,7 +83,3 @@ h1 {
   cursor: pointer;
   text-align: center;
 }
-/* Responsive */
-/* @media only screen and (max-width: 500px) {
-  
-} */
