@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;~
 }
 body {
   background-color: #548687;
@@ -13,7 +13,6 @@ body {
   justify-content: center;
   height: 100vh;
 }
-
 .msg_container {
   height: 500vmin;
   display: flex;
